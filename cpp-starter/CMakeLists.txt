@@ -10,4 +10,8 @@ add_executable(project main.cpp problems/sum.cpp
         problems/Check.cpp
         problems/Check.h
         problems/DFA.cpp
-        problems/DFA.h)
+        problems/DFA.h
+        problems/NFA.cpp
+        problems/NFA.h
+        problems/Determinize.cpp
+        problems/Determinize.h)
