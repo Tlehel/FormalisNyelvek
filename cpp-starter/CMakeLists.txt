@@ -14,4 +14,6 @@ add_executable(project main.cpp problems/sum.cpp
         problems/NFA.cpp
         problems/NFA.h
         problems/Determinize.cpp
-        problems/Determinize.h)
+        problems/Determinize.h
+        problems/Minimize.cpp
+        problems/Minimize.h)

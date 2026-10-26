@@ -1,12 +1,15 @@
 # ninja log v6
 10	3995	8126442438128653	CMakeFiles/project.dir/problems/sum.cpp.obj	c555e9044f5fe40d
-5	4259	8127283534192204	CMakeFiles/project.dir/main.cpp.obj	aa95c67f2c24860b
-3861	12312	8127285459179744	project.exe	c43ca6a69239a0c3
-11	789	8127280567099541	CMakeFiles/project.dir/problems/DFA.cpp.obj	a9e98eddbf1e0f39
-6	3861	8127285420621515	CMakeFiles/project.dir/problems/Check.cpp.obj	e0d10ddb627fc3e
-20	1209	8138462853196758	CMakeFiles/project.dir/problems/DFA.cpp.obj	a9e98eddbf1e0f39
-25	1488	8138462853246743	CMakeFiles/project.dir/problems/NFA.cpp.obj	d0cce60ed566ba96
-14	4996	8138462853136735	CMakeFiles/project.dir/problems/Check.cpp.obj	e0d10ddb627fc3e
-32	5032	8138462853316797	CMakeFiles/project.dir/problems/Determinize.cpp.obj	cbf3eb6ebf3feb0e
 6	5473	8138462853066722	CMakeFiles/project.dir/main.cpp.obj	aa95c67f2c24860b
 5473	18045	8138462907726693	project.exe	553161dfd8bb3a15
+20	1209	8138462853196758	CMakeFiles/project.dir/problems/DFA.cpp.obj	a9e98eddbf1e0f39
+14	4996	8138462853136735	CMakeFiles/project.dir/problems/Check.cpp.obj	e0d10ddb627fc3e
+32	5032	8138462853316797	CMakeFiles/project.dir/problems/Determinize.cpp.obj	cbf3eb6ebf3feb0e
+25	1488	8138462853246743	CMakeFiles/project.dir/problems/NFA.cpp.obj	d0cce60ed566ba96
+20	1509	8147301883646578	CMakeFiles/project.dir/problems/NFA.cpp.obj	d0cce60ed566ba96
+15	1659	8147301883606604	CMakeFiles/project.dir/problems/DFA.cpp.obj	a9e98eddbf1e0f39
+32	4677	8147301883766587	CMakeFiles/project.dir/problems/Minimize.cpp.obj	34da031a50caf6d0
+10	4710	8147301883546568	CMakeFiles/project.dir/problems/Check.cpp.obj	e0d10ddb627fc3e
+25	4725	8147301883696594	CMakeFiles/project.dir/problems/Determinize.cpp.obj	cbf3eb6ebf3feb0e
+5	5102	8147301883496574	CMakeFiles/project.dir/main.cpp.obj	aa95c67f2c24860b
+5102	19340	8147301934465360	project.exe	3cf4c7e29c1e286c

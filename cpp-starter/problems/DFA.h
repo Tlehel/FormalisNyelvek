@@ -30,6 +30,8 @@ public:
 
     bool accepts(const std::string& word) const;
 
+    DFA minimize() const;
+
 
     void addState(const std::string& s);
     void addSymbol(char c);
