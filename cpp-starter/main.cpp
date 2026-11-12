@@ -9,6 +9,7 @@
 #include "problems/Check.h"
 #include "problems/Determinize.h"
 #include "problems/Minimize.h"
+#include "problems/Regex.h"
 
 int runProblem(int argc, char* argv[]) {
     // Add your own problems here
@@ -17,6 +18,7 @@ int runProblem(int argc, char* argv[]) {
     problems.push_back(new Check());
     problems.push_back(new Determinize());
     problems.push_back(new Minimize());
+    problems.push_back(new RegexProblem());
 
     cxxopts::Options options("project", "Run the specific problem");
 

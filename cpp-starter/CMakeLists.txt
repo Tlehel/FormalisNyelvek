@@ -16,4 +16,6 @@ add_executable(project main.cpp problems/sum.cpp
         problems/Determinize.cpp
         problems/Determinize.h
         problems/Minimize.cpp
-        problems/Minimize.h)
+        problems/Minimize.h
+        problems/Regex.cpp
+        problems/Regex.h)
