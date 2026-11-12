@@ -38,13 +38,13 @@ void task1(const std::vector<std::string>& lines, std::ostream& out) {
         std::regex(R"(^10-15 )"),                                      // 10. ho 15.
         std::regex(R"(^10-15 10:18:51\.)"),                            // 10-15 10:18:51
         std::regex(R"(^\S+ \d{2}:\d{2}:51\.)"),                        // 51. masodperc
-        std::regex(PREFIX + R"([IDVEFAW] lowmemorykiller:)"),          // lowmemorykiller tag
+        std::regex(PREFIX + R"([IDVEFAW] lowmemorykiller *:)"),        // lowmemorykiller tag
         std::regex(R"(^\S+ 10:18:51\.\d+ +221 )"),                     // 10:18:51, PID 221
         std::regex(PREFIX + R"(E )"),                                  // hibak (E)
-        std::regex(PREFIX + R"(W PackageManager:)"),                   // PackageManager warning
-        std::regex(PREFIX + R"(D [^:]*ExoPlayer[^:]*:)"),              // ExoPlayer debug
-        std::regex(PREFIX + R"([EW] .*\.java:)"),                      // .java pozicios E/W
-        std::regex(PREFIX + R"([IDVEFAW] [^:]*:.*Thread)")             // "Thread" az uzenetben
+        std::regex(PREFIX + R"(W PackageManager *:)"),                 // PackageManager warning
+        std::regex(PREFIX + R"(D .*ExoPlayer)"),                       // ExoPlayer debug (barhol a sorban)
+        std::regex(PREFIX + R"([EW] .*\.java:[0-9]+)"),                // .java pozicios E/W
+        std::regex(PREFIX + R"([IDVEFAW] [^:]+:.*Thread)")             // "Thread" az uzenetben
     };
 
     std::vector<int> counts(patterns.size(), 0);
